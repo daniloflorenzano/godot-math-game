@@ -8,7 +8,7 @@ var destination := Vector2()
 
 func init(enemy_position):
 	destination = enemy_position
-	destination.y = destination.y - 40
+	destination.y = destination.y - 70
 	
 func _physics_process(delta):
 	if destination != null:

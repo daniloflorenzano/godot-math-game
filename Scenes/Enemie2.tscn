@@ -185,10 +185,12 @@ rect_scale = Vector2( 0.760002, 1 )
 custom_fonts/font = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 position = Vector2( 6.5, -2.5 )
 shape = SubResource( 20 )
 
 [node name="ray_wall" type="RayCast2D" parent="."]
+visible = false
 position = Vector2( 2, 4 )
 enabled = true
 cast_to = Vector2( -58, 0 )
